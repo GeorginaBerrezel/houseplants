@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/* Styles pour le body */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+/* Styles pour le header */
+.header {
+  background-color: #5c8a4b;
+  color: #fff;
+  padding: 20px;
+}
+.header__logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+.header__nav {
+  margin-top: 10px;
+}
+.header__menu {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.header__menu-item {
+  margin: 0 10px;
+  cursor: pointer;
+}
+.header__menu-item--active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Styles pour le main */
+.main {
+  padding: 20px;
+}
+.main__title {
+  font-size: 28px;
+  color: #5c8a4b;
+}
+.main__content {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 400px;
+}
+.main__content__plant-list {
+  /* Styles spécifiques pour la liste des plantes */
+}
+
+/* Styles pour le footer */
+.footer {
+  background-color: #5c8a4b;
+  color: #fff;
+  padding: 10px;
+}
+.footer__content {
+  text-align: center;
+}
+.footer__content__copyright {
+  font-size: 14px;
+}
+
+/* Ajoutez d'autres styles spécifiques au besoin */
+
+/*# sourceMappingURL=styles.css.map */
