@@ -1,9 +1,36 @@
+@import "_mixins";
+
+// Utilisez les variables de couleur
+.main {
+    background-color: $primary-color;
+}
+
+// Utilisez les mixins pour les media queries
+.element {
+    @include mobile {
+        // Styles spécifiques pour les mobiles
+    }
+}
+
+// Utilisez les mixins pour les tailles de police
+.text {
+    @include medium-text;
+}
+
+
+
 /* Styles pour le body */
 body {
     font-family: Arial, sans-serif;
     text-align: center;
     background-color: #f4f4f4;
 }
+
+.icon {
+    font-size: 24px; /* Ajustez la taille de l'icône */
+    color: red; /* Ajustez la couleur de l'icône */
+}
+
 
 /* Styles pour le header */
 .header {
