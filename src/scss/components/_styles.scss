@@ -1,0 +1,31 @@
+.main {
+    background-color: $body-color;
+    padding: $padding-medium;
+}
+
+// Utilisez les mixins pour les media queries
+.element {
+    @include mobile {
+        // Styles spécifiques pour les mobiles
+    }
+}
+
+// Utilisez les mixins pour les tailles de police
+.text {
+    @include medium-text;
+}
+
+
+
+/* Styles pour le body */
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    background-color: $body-color;
+}
+
+.icon {
+    font-size: 24px;
+    color: red;
+}

@@ -1,0 +1,14 @@
+/* Styles pour le footer */
+.footer {
+    background-color: $footer-color;
+    color: $white-color;
+    padding: $padding-small;
+
+    &__content {
+        text-align: center;
+
+        &__copyright {
+            @include small-text;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+/* Styles pour le main */
+.main {
+    padding: $padding-medium;
+
+    &__title {
+        @include Xlarge-text;
+        margin: $margin-medium 0 $margin-small 0; /* Utilisation des variables de marge */
+
+    }
+
+    &__content {
+        background-color: $white-color;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: $padding-medium;
+        margin: $margin-medium auto;
+        padding: $padding-medium; /* Utilisation des variables de padding */
+        margin: $margin-medium 0; /* Utilisation des variables de marge */
+        max-width: 400px;        
+
+        &__plant-list {
+            background-color: $white-color;
+        }
+    }
+}

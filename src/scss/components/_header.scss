@@ -1,0 +1,31 @@
+/* Styles pour le header */
+.header {
+    background-color: $header-color;
+    color: $white-color;
+    padding: $padding-medium;
+
+    &__logo {
+        @include Large-text;
+    }
+
+    &__nav {
+        margin: $margin-small 0 0 0;
+    }
+
+    &__menu {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+
+        &-item {
+            margin: 0 $margin-small;
+            cursor: pointer;
+
+            &--active {
+                font-weight: bold;
+                text-decoration: underline;
+            }
+        }
+    }
+}
